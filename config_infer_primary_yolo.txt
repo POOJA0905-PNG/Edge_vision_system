@@ -1,0 +1,9 @@
+[property]
+gpu-id=0
+model-engine-file=yolov8n.trt
+onnx-file=yolov8n.onnx
+network-type=0
+batch-size=4
+interval=0
+process-mode=1
+gie-unique-id=1
