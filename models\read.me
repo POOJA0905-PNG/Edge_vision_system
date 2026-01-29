@@ -1,0 +1,16 @@
+Model Files:
+Model files are not included in this repository due to size limits.
+
+Detection:
+- yolov8n.onnx  
+- yolov8n_fp16.trt  
+
+Segmentation:
+- deeplabv3.onnx  
+- deeplabv3_fp16.trt  
+
+YOLO:
+yolo export model=yolov8n.pt format=onnx opset=12
+
+Segmentation:
+python export_segmentation_onnx.py
